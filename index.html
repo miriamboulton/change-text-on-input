@@ -14,20 +14,20 @@
         padding: 3px 0;
       }
       div > div {
-        color: green;
+        color: gold;
         padding: 3px 0;
       }
     </style>
   </head>
   <body>
-    <h1>Change text on input</h1>
+    <h1>Transform text on input</h1>
     <input id="text-input" />
     <div id="text-wrapper"></div>
     <!-- script -->
     <script>
       const textWrapper = document.getElementById("text-wrapper");
       const textInput = document.getElementById("text-input");
-      const words = "a place,a platter,between,b place,c place".split(",");
+      const words = "arrival,anchor,bark,break,cork,crank,denigrade,denizen,epistle,epigraph,fringe,firmament,glandular,globe,hereditary,horn,insoluble,impossible,jugular,jackal,kindling,king,loom,lacking,mere,main,near,never,operational,open,permitted,preen,quicken,qualitative,resident,rushes,stricken,stay,trick,terrific,underdevelop,uvular,various,vicarious,wrist,water,x,xxx,year,yearling,zenith,zephyr".split(",");
 
       function changeText(e) {
         const resultWords = words.filter(word =>
